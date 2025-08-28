@@ -1,0 +1,143 @@
+{
+  "HomePage": {
+    "intro": "こんにちは、Youssef Obataです",
+    "location": "日本・会津在住",
+    "location_type": "オンサイト",
+    "resume": "スケーラブルで効率的なデジタルソリューションの構築を得意とする、情熱的で経験豊富なフルスタックエンジニアです。フロントエンドでは Next.js、TypeScript、Tailwind CSS を用いて、レスポンシブでアクセシブルな UI を設計・実装します。バックエンドでは Golang で堅牢なサービスを開発し、モバイルでは Kotlin でネイティブ Android アプリを作成します。チームワークを重視し細部まで配慮するエンジニアとして、プラットフォームを横断して構造化が行き届いた高性能なアプリケーションの提供に取り組んでいます。",
+    "skills": {
+      "title": "スキル",
+      "sub_title": "私の専門スキル。"
+    },
+    "bento": {
+      "title": "注目のセクション",
+      "sub_title": "私が制作・貢献・達成してきたすべてをご覧ください。"
+    }
+  },
+  "AboutPage": {
+    "title": "自己紹介",
+    "description": "私についての簡単な紹介です。",
+    "resume": {
+      "paragraf_1": "こんにちは！ポートフォリオをご覧いただきありがとうございます。私は Youssef Obata、22 歳のソフトウェアエンジニア志望です。エジプトと日本のハーフで、英語・アラビア語・日本語を流暢に話せます。",
+      "paragraf_2": "現在は日本の会津大学ソフトウェア工学研究室で修士課程に在籍し、同大学で学士号も取得しました。その前はエジプト・カイロの The International School of Choueifat にて高校課程を修了。Asera Co. Ltd では主にソフトウェア／システムエンジニアとしてパートタイムで勤務し、さらに 2 年連続で大学の言語処理およびオートマトン理論のティーチングアシスタントも務めています。",
+      "paragraf_3": "日本の大手テック企業である楽天でアプリケーションエンジニアとしてインターンを経験。また、会津大学の学生 3 名の一人としてサンノゼ（シリコンバレー）でのインターンシップに選抜され、NVIDIA や Hacker Dojo のトップエンジニアから直接のメンタリングを受けました。",
+      "paragraf_4": "私は、コミュニケーションとチームシナジーが何より重要だと考えています。これまでの経験は、技術力や分析力だけでなく、リーダーシップも磨いてくれました。チームで協働し、学び合い、意義あるプロジェクトへ貢献していくことに常に意欲的です。",
+      "paragraf_5": "よろしくお願いいたします。"
+    },
+    "career": {
+      "title": "職務経験",
+      "sub_title": "これまでのキャリアの歩み。"
+    },
+    "education": {
+      "title": "学歴",
+      "sub_title": "私の学習の歩み。"
+    },
+    "resume_download_button": "履歴書をダウンロード",
+    "portfolio_download_button": "ポートフォリオをダウンロード"
+  },
+  "AchievementsPage": {
+    "title": "実績",
+    "description": "これまでに取得した証明書やバッジを厳選して掲載しています。",
+    "error": "サーバーでエラーが発生しました。",
+    "no_data": "データがありません。",
+    "show_credential": "認定情報を見る"
+  },
+  "ProjectsPage": {
+    "title": "プロジェクト",
+    "description": "個人・オープンソースを問わず、制作・貢献したプロジェクトの一覧です。",
+    "view_project": "プロジェクトを見る",
+    "tech_stack": "技術スタック",
+    "back_button": "戻る",
+    "source_code_text": "ソースコード",
+    "live_demo_text": "ライブデモ",
+    "error": "サーバーでエラーが発生しました。",
+    "no_data": "データがありません。"
+  },
+  "DashboardPage": {
+    "title": "ダッシュボード",
+    "description": "Next.js の API ルートで構築した、開発統計やコントリビューションを可視化する個人用ダッシュボードです。",
+    "error": "サーバーでエラーが発生しました。",
+    "umami": {
+      "title": "Umami",
+      "sub_title": "ポートフォリオサイトのリアルタイムなトラフィックとインタラクションを監視します。",
+      "overview": {
+        "page_views": "ページビュー",
+        "visitors": "訪問者",
+        "visits": "訪問数",
+        "countries": "国",
+        "events": "イベント"
+      },
+      "chart": {
+        "title": "トラフィック推移",
+        "sessions": "セッション",
+        "page_views": "ページビュー"
+      },
+      "filter_placeholder": "ドメインでフィルタ…"
+    },
+    "github": {
+      "title": "GitHub コントリビューション",
+      "sub_title": "過去 1 年間の GitHub 活動。",
+      "title_total_contribution": "合計",
+      "title_total_this_week_contributino": "今週",
+      "title_best_contribution": "最多",
+      "title_average_contribution": "平均",
+      "title_less_contribution": "少ない",
+      "title_more_contribution": "多い",
+      "unit": "日"
+    },
+    "wakatime": {
+      "title": "WakaTime 統計",
+      "sub_title": "直近 7 日間のコーディング活動。",
+      "last_update": "最終更新",
+      "start_date": "開始日",
+      "end_date": "終了日",
+      "daily_average": "1 日あたりの平均コーディング時間",
+      "total_this_week": "今週の合計",
+      "best_day": "ベストデー",
+      "all_time_since_joined": "登録以来の累計コーディング時間",
+      "languages": "主な言語"
+    }
+  },
+  "ContactPage": {
+    "title": "お問い合わせ",
+    "description": "お気軽にご連絡ください",
+    "social_media": {
+      "title": "SNSでつながる",
+      "gmail": {
+        "title": "メールで連絡",
+        "description": "ご依頼やコラボのご相談はメールでどうぞ。"
+      },
+      "linkedin": {
+        "title": "つながりましょう",
+        "description": "プロフェッショナルに交流しましょう。"
+      },
+      "github": {
+        "title": "コードを見る",
+        "description": "私のオープンソース活動をご覧ください。"
+      }
+    },
+    "form": {
+      "title": "またはメッセージを送る",
+      "input_name": "名前",
+      "input_email": "メールアドレス",
+      "input_message": "メッセージ",
+      "button": "送信"
+    }
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "ja": "🇯🇵",
+    "label": "言語"
+  },
+  "Navigation": {
+    "Home": "ホーム",
+    "About": "自己紹介",
+    "Achievements": "実績",
+    "Projects": "プロジェクト",
+    "Dashboard": "ダッシュボード",
+    "Contact": "お問い合わせ"
+  },
+  "NotFoundPage": {
+    "title": "ページが見つかりません",
+    "button": "ホームに戻る"
+  }
+}

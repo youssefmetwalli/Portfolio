@@ -1,0 +1,147 @@
+{
+  "HomePage": {
+    "intro": "Hi, I'm Youssef Obata",
+    "location": "Based in Aizu, Japan",
+    "location_type": "Onsite",
+    "resume": "Experienced and passionate Fullstack Developer specializing in building scalable and efficient digital solutions. On the frontend, I work with Next.js, TypeScript, and Tailwind CSS to craft responsive and accessible user interfaces. On the backend, I develop robust services using Golang, and for mobile, I build native Android apps with Kotlin. I’m a collaborative and detail-oriented engineer committed to delivering well-structured, high-performance applications across platforms.",
+    "skills": {
+      "title": "Skills",
+      "sub_title": "My professional skills."
+    },
+    "bento": {
+      "title": "Featured Sections",
+      "sub_title": "Explore everything I’ve crafted, contributed, and accomplished."
+    }
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "A brief description about me.",
+    "resume": {
+      "paragraf_1": "Hey! Thank you for taking the time to visit my portfolio. I'm Youssef Obata, a 22 year old aspiring software engineer. I'm half Egyptian and half Japanese, and fluently cabpable of communicating in English, Arabic, or Japanese.",
+
+      "paragraf_2": "I am currently a Masters student in the Software Engineering Lab of the University of Aizu, Japan, from where I have also received my bachelors degree. Before that, I have attended The International School of Choueifat in Cairo, Egypt for highschool. I have also been working part time at Asera Co. Ltd, mainly as a software/ systems engineer. As well as serving as a Teaching Assistant for the Language Processing, and Automata Theory courses offered at my university for 2 consecutive years.",
+
+      "paragraf_3": "Beyond that, I have completed an internship as an Applications Engineer at Rakuten, one of Japan's top tech companies. As well as being selected as one of just three students at the University of Aizu to participate in their bi-annual Silicon Valley Internship in San Jose, California . Gaining valuable direct mentorship from top level engineers at NVIDIA and Hacker Dojo. ",
+
+      "paragraf_4": "I sincerely believe that both communication, and team synergy are absolutely essential. My experience has shaped not only my technical and analytical skills, but also my leadership qualities. I'm always eager to work in teams, learn from others, and contribute to impactful projects.",
+
+      "paragraf_5": "Best regards,"
+    },
+    "career": {
+      "title": "Experience",
+      "sub_title": "My professional journey so far."
+    },
+    "education": {
+      "title": "Education",
+      "sub_title": "My educational journey."
+    },
+    "resume_download_button": "Download Resume",
+    "portfolio_download_button": "Download Portfolio"
+  },
+  "AchievementsPage": {
+    "title": "Achievements",
+    "description": "A curated collection of certificates and badges I’ve earned throughout my professional and academic journey.",
+    "error": "An error occurred on the server.",
+    "no_data": "No data available.",
+    "show_credential": "Show Credentials"
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "A showcase of both private and open-source projects I’ve built or contributed to.",
+    "view_project": "View Project",
+    "tech_stack": "Tech Stack",
+    "back_button": "Back",
+    "source_code_text": "Source Code",
+    "live_demo_text": "Live Demo",
+    "error": "An error occurred on the server.",
+    "no_data": "No data available."
+  },
+  "DashboardPage": {
+    "title": "Dashboard",
+    "description": "My personal dashboard built with Next.js API routes, visualizing development statistics and contributions in real-time.",
+    "error": "An error occurred on the server.",
+    "umami": {
+      "title": "Umami",
+      "sub_title": "Monitor real-time traffic and interactions from my portfolio site.",
+      "overview": {
+        "page_views": "Page Views",
+        "visitors": "Visitors",
+        "visits": "Visits",
+        "countries": "Countries",
+        "events": "Events"
+      },
+      "chart": {
+        "title": "Traffic Trends",
+        "sessions": "Sessions",
+        "page_views": "Page Views"
+      },
+      "filter_placeholder": "Filter domain..."
+    },
+    "github": {
+      "title": "GitHub Contributions",
+      "sub_title": "My GitHub activity over the past year.",
+      "title_total_contribution": "Total",
+      "title_total_this_week_contributino": "This week",
+      "title_best_contribution": "Best",
+      "title_average_contribution": "Average",
+      "title_less_contribution": "Less",
+      "title_more_contribution": "More",
+      "unit": "day"
+    },
+    "wakatime": {
+      "title": "WakaTime Stats",
+      "sub_title": "Coding activity over the past 7 days.",
+      "last_update": "Last Update",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "daily_average": "Average Daily Coding Time",
+      "total_this_week": "Total This Week",
+      "best_day": "Best Day",
+      "all_time_since_joined": "All-Time Coding Since Joined",
+      "languages": "Top Languages"
+    }
+  },
+  "ContactPage": {
+    "title": "Contact Me",
+    "description": "Feel free to directly get in touch with me",
+    "social_media": {
+      "title": "Contact me on:",
+      "gmail": {
+        "title": "Email",
+        "description": "Reach out via email for inquiries or collaborations."
+      },
+      "linkedin": {
+        "title": "Linkedin",
+        "description": "Professionally connect with me."
+      },
+      "github": {
+        "title": "Github",
+        "description": "View the source-code for my public projects."
+      }
+    },
+    "form": {
+      "title": "Or send me a message",
+      "input_name": "Name",
+      "input_email": "Email",
+      "input_message": "Message",
+      "button": "Send Email"
+    }
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "id": "🇯🇵",
+    "label": "Language"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "About": "About",
+    "Achievements": "Achievements",
+    "Projects": "Projects",
+    "Dashboard": "Dashboard",
+    "Contact": "Contact"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "button": "Take me home"
+  }
+}
