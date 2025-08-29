@@ -15,6 +15,11 @@ import {
   SiFirebase,
   SiSupabase,
   SiDocker,
+  SiPython,
+  SiAmazonalexa,
+  SiAmazonwebservices,
+  SiFlask,
+  SiGooglegemini,
 } from "react-icons/si";
 
 export type SkillProps = {
@@ -123,6 +128,36 @@ export const STACKS: SkillProps = {
     icon: <SiGithub size={iconSize} />,
     background: "bg-slate-800",
     color: "text-neutral-50",
+    isActive: true,
+  },
+  Python: {
+    icon: <SiPython size={iconSize} />,
+    background: "bg-blue-600",
+    color: "text-blue-600",
+    isActive: true,
+  },
+  AWS: {
+    icon: <SiAmazonwebservices size={iconSize} />,
+    background: "bg-amber-500",  
+    color: "text-amber-500",       
+    isActive: true,
+  },
+  Alexa: {
+    icon: <SiAmazonalexa size={iconSize} />,
+    background: "bg-cyan-600",
+    color: "text-cyan-600",
+    isActive: true,
+  },
+  Flask: {
+    icon: <SiFlask size={iconSize} />,
+    background: "bg-navy-900",
+    color: "text-navy-700",
+    isActive: true,
+  },
+  "Google Gemini": {
+    icon: <SiGooglegemini size={iconSize} />,
+    background: "bg-indigo-600",
+    color: "text-indigo-600",
     isActive: true,
   },
 };
