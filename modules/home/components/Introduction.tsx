@@ -14,9 +14,9 @@ const Introduction = () => {
           <li>{t("location")}</li>
           <li>{t("location_type")}</li>
         </ul>
-        <p className="mt-6 leading-loose text-neutral-600 dark:text-neutral-300">
+        {/* <p className="mt-6 leading-loose text-neutral-600 dark:text-neutral-300">
           {t("resume")}
-        </p>
+        </p> */}
       </div>
     </section>
   );
