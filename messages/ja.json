@@ -39,7 +39,10 @@
     "description": "これまでに取得した証明書やバッジを厳選して掲載しています。",
     "error": "サーバーでエラーが発生しました。",
     "no_data": "データがありません。",
-    "show_credential": "認定情報を見る"
+    "show_credential": "認定情報を見る",
+    "publications_title": "発表論文",
+    "publications_description": "主要な国際会議で発表した研究業績を厳選して掲載しています"
+
   },
   "ProjectsPage": {
     "title": "プロジェクト",

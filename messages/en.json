@@ -39,11 +39,14 @@
     "portfolio_download_button": "Download Portfolio"
   },
   "AchievementsPage": {
-    "title": "Achievements",
-    "description": "A curated collection of certificates and badges I’ve earned throughout my professional and academic journey.",
+    "title": "Certificates",
+    "description": "A collection of certificates and badges I’ve earned throughout my professional and academic journey.",
     "error": "An error occurred on the server.",
     "no_data": "No data available.",
-    "show_credential": "Show Credentials"
+    "show_credential": "Show Credentials",
+    "publications_title": "Publications",
+    "publications_description": "A curated selection of my research publications in major international conferences."
+    
   },
   "ProjectsPage": {
     "title": "Projects",
