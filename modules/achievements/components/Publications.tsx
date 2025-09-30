@@ -26,16 +26,9 @@ export default function Publications() {
   }, [q, tag]);
 
   return (
-    <section className="mt-12">
+    <section className="mt-6">
       <div className="flex items-end justify-between gap-4 flex-wrap">
-        <div>
-          <h2 className="text-2xl font-bold">Publications</h2>
-          <p className="text-neutral-400 mt-1">
-            Peer-reviewed papers, workshops, and preprints.
-          </p>
-        </div>
-
-        <div className="flex gap-2">
+        {/* <div className="flex gap-2">
           <input
             className="h-10 w-56 rounded-xl bg-neutral-900 border border-neutral-800 px-3 text-sm outline-none focus:ring-2 focus:ring-neutral-700"
             placeholder="Search…"
@@ -52,7 +45,7 @@ export default function Publications() {
               <option key={t} value={t}>{t}</option>
             ))}
           </select>
-        </div>
+        </div> */}
       </div>
 
       <p className="mt-4 text-sm text-neutral-500">Total: {list.length}</p>
