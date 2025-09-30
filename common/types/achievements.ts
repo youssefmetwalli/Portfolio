@@ -1,6 +1,5 @@
 export interface AchievementItem {
   id: number;
-  credential_id?: string;
   slug?: string;
   name: string;
   issuing_organization: string;

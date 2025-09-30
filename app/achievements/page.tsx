@@ -10,10 +10,11 @@ const AchievementsPage = () => {
 
   return (
     <Container data-aos="fade-up">
+      <PageHeading title={t("publications_title")} description={t("publications_description")}/>
+      <Publications />
+      <div className="my-10 border-t border-neutral-800" />
       <PageHeading title={t("title")} description={t("description")} />
       <Achievements />
-      <div className="my-10 border-t border-neutral-800" />
-      <Publications />
     </Container>
   );
 };
