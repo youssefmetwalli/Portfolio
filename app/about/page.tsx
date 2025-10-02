@@ -19,7 +19,8 @@ const AboutPage = () => {
 
   return (
     <Container data-aos="fade-up">
-      <PageHeading title={t("title")} description={t("description")} />
+
+      <PageHeading title={t("title")} description={t("description")}/>
       <About />
     </Container>
   );
