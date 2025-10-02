@@ -18,18 +18,18 @@
     "description": "A brief description about me.",
     "resume": {
       "paragraf_1": "Hey! Thank you for taking the time to visit my portfolio. I'm Youssef Obata, a 22 year old aspiring software engineer. I'm half Egyptian and half Japanese, and fluently cabpable of communicating in English, Arabic, or Japanese.",
-
       "paragraf_2": "I am currently a Masters student in the Software Engineering Lab of the University of Aizu, Japan, from where I have also received my bachelors degree. Before that, I have attended The International School of Choueifat in Cairo, Egypt for highschool. I have also been working part time at Asera Co. Ltd, mainly as a software/ systems engineer. As well as serving as a Teaching Assistant for the Language Processing, and Automata Theory courses offered at my university for 2 consecutive years.",
-
       "paragraf_3": "Beyond that, I have completed an internship as an Applications Engineer at Rakuten, one of Japan's top tech companies. As well as being selected as one of just three students at the University of Aizu to participate in their bi-annual Silicon Valley Internship in San Jose, California . Gaining valuable direct mentorship from top level engineers at NVIDIA and Hacker Dojo. ",
-
       "paragraf_4": "I sincerely believe that both communication, and team synergy are absolutely essential. My experience has shaped not only my technical and analytical skills, but also my leadership qualities. I'm always eager to work in teams, learn from others, and contribute to impactful projects.",
-
       "paragraf_5": "Best regards,"
     },
     "career": {
       "title": "Experience",
       "sub_title": "My professional journey so far."
+    },
+    "academics": {
+      "title": "Academic Experience",
+      "sub_title": "Teaching assistance and academic contributions."
     },
     "education": {
       "title": "Education",
@@ -46,7 +46,6 @@
     "show_credential": "Show Credentials",
     "publications_title": "Publications",
     "publications_description": "A curated selection of my research publications in major international conferences."
-    
   },
   "ProjectsPage": {
     "title": "Projects",

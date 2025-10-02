@@ -27,6 +27,10 @@
       "title": "職務経験",
       "sub_title": "これまでのキャリアの歩み。"
     },
+    "academics": {
+      "title": "学術経験",
+      "sub_title": "ティーチングアシスタントとしての支援や学術的な貢献。"
+    },
     "education": {
       "title": "学歴",
       "sub_title": "私の学習の歩み。"
@@ -42,7 +46,6 @@
     "show_credential": "認定情報を見る",
     "publications_title": "発表論文",
     "publications_description": "主要な国際会議で発表した研究業績を厳選して掲載しています"
-
   },
   "ProjectsPage": {
     "title": "プロジェクト",
