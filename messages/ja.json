@@ -49,7 +49,7 @@
   },
   "ProjectsPage": {
     "title": "プロジェクト",
-    "description": "個人・オープンソースを問わず、制作・貢献したプロジェクトの一覧です。",
+    "description": "自分で制作し、取り組んできたプロジェクト。",
     "view_project": "プロジェクトを見る",
     "tech_stack": "技術スタック",
     "back_button": "戻る",

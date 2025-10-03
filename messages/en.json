@@ -10,7 +10,7 @@
     },
     "bento": {
       "title": "Featured Sections",
-      "sub_title": "Explore everything I’ve crafted, contributed, and accomplished."
+      "sub_title": "Get to know me more!"
     }
   },
   "AboutPage": {
@@ -45,11 +45,11 @@
     "no_data": "No data available.",
     "show_credential": "Show Credentials",
     "publications_title": "Publications",
-    "publications_description": "A curated selection of my research publications in major international conferences."
+    "publications_description": "My research publications in major international conferences."
   },
   "ProjectsPage": {
     "title": "Projects",
-    "description": "A showcase of both private and open-source projects I’ve built or contributed to.",
+    "description": "A showcase of projects and products I’ve built and worked on myself.",
     "view_project": "View Project",
     "tech_stack": "Tech Stack",
     "back_button": "Back",
@@ -107,7 +107,7 @@
     "title": "Contact Me",
     "description": "Feel free to directly get in touch with me",
     "social_media": {
-      "title": "Contact me on:",
+      "title": "Connect with me on:",
       "gmail": {
         "title": "Email",
         "description": "Reach out via email for inquiries or collaborations."
@@ -122,7 +122,7 @@
       }
     },
     "form": {
-      "title": "Or send me a message",
+      "title": "Or directly send me a message",
       "input_name": "Name",
       "input_email": "Email",
       "input_message": "Message",
