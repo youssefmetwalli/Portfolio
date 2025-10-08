@@ -19,7 +19,7 @@ const size = 22;
 export const BENTO: BentoItemProps[] = [
   {
     title: "Projects Showcase",
-    description: "A selection of real apps built to solve real problems.",
+    description: "projects and products I have personally built.",
     label: "Projects",
     icon: <ProjectIcon size={size} />,
     visual: <AnimatedListProject />,
@@ -30,7 +30,7 @@ export const BENTO: BentoItemProps[] = [
   },
   {
     title: "About Me",
-    description: "Who I am and what I do.",
+    description: "my professional, academic, and educational background.",
     label: "About",
     icon: <AboutIcon size={size} />,
     visual: <StackImagesPersonal />,
@@ -41,7 +41,7 @@ export const BENTO: BentoItemProps[] = [
   },
   {
     title: "Skills & Tools",
-    description: "Covering mobile, web, AI, and UI/UX technologies.",
+    description: "skills and technologies I have extensively built with.",
     label: "Stack",
     icon: <DashboardIcon size={size} />,
     visual: <MarqueeIcons />,
@@ -52,7 +52,7 @@ export const BENTO: BentoItemProps[] = [
   },
   {
     title: "Achievements",
-    description: "Milestones from programs, projects, and communities.",
+    description: "my publications, and certificates.",
     label: "Achievements",
     icon: <AchievementIcon size={size} />,
     visual: <AchievementFolder />,

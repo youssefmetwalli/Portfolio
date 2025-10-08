@@ -37,4 +37,22 @@ export const CAREERS: CareerProps[] = [
     ],
     isShow: true,
   },
+  {
+    position: "Silicon Valley Internship",
+    company: "NVIDIA & Hacker Dojo",
+    logo: "/images/careers/siliconvalley.jpg",
+    location: "San Jose, California 🇺🇸",
+    location_type: "Onsite",
+    type: "Internship",
+    start_date: "2025-02",
+    end_date: "2025-02",
+    industry: "Fintech",
+    link: "https://hackerdojo.org/",
+    responsibilities: [
+      "Selected as just one of 3 students to attend the bi-annual internship program organized by the University of Aizu in Silicon Valley.",
+      "Had the privilege of getting personally mentored by top level engineers at both Nvidia and Hacker Dojo.",
+      "Also had the chance to visit Stanford University and San Jose State University, and attending valuable lectures there.",
+    ],
+    isShow: true,
+  },
 ];
