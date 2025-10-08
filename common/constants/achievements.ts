@@ -13,4 +13,17 @@ export const ACHIEVEMENTS: AchievementItem[] = [
         image: "/images/achievements/googleAI.png",
         is_show: true
       },
+      {
+        id: 2,
+        slug: "aws",
+        name: "AWS Cloud Practitioner Essentials",
+        issuing_organization: "AWS",
+        category: "Certification",
+        url_credential: "https://skillbuilder.aws/learn",
+        issue_date: "2025-10-08",      
+        expiration_date: "2028-08-29",
+        image: "/images/achievements/awscloudpractioner.png",
+        is_show: true
+      },
+      
 ]
