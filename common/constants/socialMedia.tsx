@@ -10,20 +10,20 @@ const iconSize = 35;
 const backgroundIconSize = 275;
 
 export const SOCIAL_MEDIA: SocialMediaProps[] = [
-  {
-    title: "Contact Me",
-    description: "Reach out via email for any inquiries or collaborations.",
-    name: "gmail",
-    href: "mailto:ymetwalli22@gmail.com",
-    icon: <SiGmail size={iconSize} />,
-    backgroundIcon: <SiGmail size={backgroundIconSize} />,
-    textColor: "text-red-300",
-    backgroundColor: "bg-red-300",
-    borderColor: "border-red-300",
-    backgroundGradientColor: "bg-gradient-to-b from-red-700 to-red-900",
-    colSpan: "md:col-span-2",
-    isShow: true,
-  },
+  // {
+  //   title: "Contact Me",
+  //   description: "Reach out via email for any inquiries or collaborations.",
+  //   name: "gmail",
+  //   href: "mailto:ymetwalli22@gmail.com",
+  //   icon: <SiGmail size={iconSize} />,
+  //   backgroundIcon: <SiGmail size={backgroundIconSize} />,
+  //   textColor: "text-red-300",
+  //   backgroundColor: "bg-red-300",
+  //   borderColor: "border-red-300",
+  //   backgroundGradientColor: "bg-gradient-to-b from-red-700 to-red-900",
+  //   colSpan: "md:col-span-2",
+  //   isShow: true,
+  // },
   {
     title: "Connect With Me",
     description:
