@@ -1,17 +1,15 @@
-"use client";
-
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 import Container from "@/common/components/elements/Container";
 
-const NotFound = () => {
-  const t = useTranslations("NotFoundPage");
+export default async function NotFound() {
+  const t = await getTranslations("NotFoundPage");
 
   return (
     <Container
       data-aos="fade-up"
-      className="flex h-full flex-col items-center justify-center gap-y-4  transition-all duration-300"
+      className="flex h-full flex-col items-center justify-center gap-y-4 transition-all duration-300"
     >
       <h1 className="text-6xl font-semibold text-neutral-700 dark:text-neutral-300">
         404
@@ -27,6 +25,4 @@ const NotFound = () => {
       </Link>
     </Container>
   );
-};
-
-export default NotFound;
+}
