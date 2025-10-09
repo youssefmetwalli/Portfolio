@@ -23,7 +23,6 @@ export const generateMetadata = async ({
     description: project.description,
     openGraph: {
       images: project.image,
-      url: `${METADATA.openGraph.url}/${project.slug}`,
       siteName: METADATA.openGraph.siteName,
       locale: METADATA.openGraph.locale,
       type: "article",
