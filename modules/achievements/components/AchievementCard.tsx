@@ -8,7 +8,6 @@ import SpotlightCard from "@/common/components/elements/SpotlightCard";
 import { AchievementItem } from "@/common/types/achievements";
 
 const AchievementCard = ({
-  credential_id,
   name,
   issuing_organization,
   issue_date,
@@ -37,9 +36,6 @@ const AchievementCard = ({
           </div>
         </div>
         <div className="my-auto space-y-2 p-4">
-          {credential_id && (
-            <p className="text-sm text-neutral-500">{credential_id}</p>
-          )}
           <p className="text-neutral-900 dark:text-neutral-300">{name}</p>
           <p className="text-sm text-neutral-500 dark:text-neutral-400">
             {issuing_organization}
