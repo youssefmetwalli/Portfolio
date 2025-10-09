@@ -1,37 +1,12 @@
-import { type NextRequest, NextResponse } from "next/server";
+// app/api/achievements/route.ts
+import { NextResponse } from "next/server";
+import { getAchievements } from "@/services/achievements";
 
-import { getAchievementsData } from "@/services/achievements";
-
-export const GET = async (req: NextRequest) => {
+export async function GET() {
   try {
-    const searchParams = req.nextUrl.searchParams;
-    const queryCategory = searchParams.get("category");
-    const querySearch = searchParams.get("search");
-
-    if (queryCategory && querySearch) {
-      const data = await getAchievementsData({
-        category: queryCategory,
-        search: querySearch,
-      });
-      return NextResponse.json(data, { status: 200 });
-    }
-
-    if (queryCategory && queryCategory.trim()) {
-      const data = await getAchievementsData({ category: queryCategory });
-      return NextResponse.json(data, { status: 200 });
-    }
-
-    if (querySearch) {
-      const data = await getAchievementsData({ search: querySearch });
-      return NextResponse.json(data, { status: 200 });
-    }
-
-    const data = await getAchievementsData({});
+    const data = await getAchievements();
     return NextResponse.json(data, { status: 200 });
-  } catch (error) {
-    return NextResponse.json(
-      { message: "Internal Server Error" },
-      { status: 500 },
-    );
+  } catch (e: any) {
+    return NextResponse.json({ message: e?.message || "Internal Server Error" }, { status: 500 });
   }
-};
+}

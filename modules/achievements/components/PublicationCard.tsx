@@ -26,7 +26,7 @@ export default function PublicationCard({ pub }: { pub: Publication }) {
     <div className="rounded-2xl border border-indigo-400/40 bg-gradient-to-br from-indigo-500/20 via-purple-500/20 to-blue-500/20 backdrop-blur-md p-4 hover:from-indigo-500/30 hover:via-purple-500/30 hover:to-blue-500/30 transition">
       <h3 className="text-lg font-semibold leading-snug">{pub.title}</h3>
       <p className="mt-1 text-md mb-2 text-neutral-400">{pub.authors.join(", ")}</p>
-      <p className="mt-1 text-md text-neutral-400">{pub.venue} · {pub.date}</p>
+      <p className="mt-1 text-md">{pub.venue} · {pub.date}</p>
       <p className="mt-1 text-md text-neutral-400">Note: currently accepted for publication. hasn't been presented yet.</p>
       {pub.abstract && (
         <p className="mt-3 text-sm text-neutral-300 line-clamp-3">{pub.abstract}</p>
@@ -54,7 +54,7 @@ export default function PublicationCard({ pub }: { pub: Publication }) {
             <LinkIcon className="h-4 w-4" /> DOI
           </a>
         )}
-        {pub.code && (
+        {/* {pub.code && (
           <a
             className="inline-flex items-center gap-1 rounded-xl border border-neutral-700 px-3 py-1.5 text-sm hover:bg-neutral-800"
             href={pub.code}
@@ -63,14 +63,14 @@ export default function PublicationCard({ pub }: { pub: Publication }) {
           >
             <Github className="h-4 w-4" /> Code
           </a>
-        )}
-        <button
+        )} */}
+        {/* <button
           onClick={copyBib}
           className="inline-flex items-center gap-1 rounded-xl border border-neutral-700 px-3 py-1.5 text-sm hover:bg-neutral-800"
           aria-label="Copy BibTeX"
         >
           <Copy className="h-4 w-4" /> {copied ? "Copied!" : "BibTeX"}
-        </button>
+        </button> */}
       </div>
 
       {pub.tags?.length ? (

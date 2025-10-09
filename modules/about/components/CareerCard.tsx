@@ -41,15 +41,15 @@ const CareerCard = ({
 
   let durationText = "";
   if (durationYears > 0) {
-    durationText += `${durationYears} ${yearText}`;
+    durationText += `${durationYears} ${yearText} `;
   }
   if (durationMonths > 0 || durationYears === 0) {
     durationText += `${durationMonths} Month${durationMonths > 1 ? "s" : ""}`;
   }
 
-  const hideText = locale === "ja" ? "非表示" : locale === "en" ? "Hide" : "Sembunyikan";
-  const showText = locale === "ja" ? "表示"   : locale === "en" ? "Show" : "Tampilkan";
-  const responsibilityText = locale === "ja" ? "職務内容" : locale === "en" ? "responsibilities" : "tanggung責";  
+  const hideText = locale === "ja" ? "非表示" : locale === "en" ? "Hide" : "非表示";
+  const showText = locale === "ja" ? "表示"   : locale === "en" ? "Show" : "表示";
+  const responsibilityText = locale === "ja" ? "職務内容" : locale === "en" ? "responsibilities" : "職務内容";  
 
   return (
     <SpotlightCard className="flex items-start gap-5 p-6">
