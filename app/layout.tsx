@@ -1,5 +1,4 @@
 import NextTopLoader from "nextjs-toploader";
-import Script from "next/script";
 import { getServerSession } from "next-auth";
 import { Analytics } from "@vercel/analytics/react";
 import { NextIntlClientProvider } from "next-intl";
@@ -12,20 +11,18 @@ import ThemeProviderContext from "@/common/stores/theme";
 import NextAuthProvider from "@/SessionProvider";
 import { METADATA } from "@/common/constants/metadata";
 import { onestSans } from "@/common/styles/fonts";
+// import { authOptions } from "@/app/api/auth/[...nextauth]/route"; // optional
 
 export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
-      : process.env.DOMAIN || "",
+      : process.env.DOMAIN || ""
   ),
   description: METADATA.description,
   keywords: METADATA.keyword,
   creator: METADATA.creator,
-  authors: {
-    name: METADATA.creator,
-    url: METADATA.openGraph.url,
-  },
+  authors: { name: METADATA.creator, url: METADATA.openGraph.url },
   openGraph: {
     images: METADATA.profile,
     url: METADATA.openGraph.url,
@@ -35,32 +32,32 @@ export const metadata: Metadata = {
   },
 };
 
-const RootLayout = async ({
+export default async function RootLayout({
   children,
   params: { locale },
-}: Readonly<{
+}: {
   children: React.ReactNode;
   params: { locale: string };
-}>) => {
+}) {
   const messages = await getMessages();
-  const session = await getServerSession();
+  // const session = await getServerSession(authOptions); // recommended
+  const session = await getServerSession(); // ok if you don't export authOptions
 
   return (
-    <html lang={locale} suppressHydrationWarning={true}>
-    
+    <html lang={locale} suppressHydrationWarning>
       <body className={onestSans.className}>
         <NextTopLoader
           color="#4ade80"
           initialPosition={0.08}
           crawlSpeed={200}
           height={3}
-          crawl={true}
+          crawl
           showSpinner={false}
           easing="ease"
           speed={200}
           shadow="0 0 10px #4ade80,0 0 5px #86efac"
         />
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <NextAuthProvider session={session}>
             <ThemeProviderContext>
               <Layouts>{children}</Layouts>
@@ -71,6 +68,4 @@ const RootLayout = async ({
       </body>
     </html>
   );
-};
-
-export default RootLayout;
+}

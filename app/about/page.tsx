@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 import Container from "@/common/components/elements/Container";
 import PageHeading from "@/common/components/elements/PageHeading";
@@ -10,20 +10,17 @@ export const metadata: Metadata = {
   title: `About ${METADATA.exTitle}`,
   description: `A short story of ${METADATA.creator}`,
   alternates: {
-    canonical: `${process.env.DOMAIN}/about`,
+    canonical: `${process.env.DOMAIN ?? ""}/about`,
   },
 };
 
-const AboutPage = () => {
-  const t = useTranslations("AboutPage");
+export default async function AboutPage() {
+  const t = await getTranslations("AboutPage");
 
   return (
     <Container data-aos="fade-up">
-
-      <PageHeading title={t("title")} description={t("description")}/>
+      <PageHeading title={t("title")} description={t("description")} />
       <About />
     </Container>
   );
-};
-
-export default AboutPage;
+}
