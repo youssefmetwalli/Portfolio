@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div className="mt-2 mb-2 flex flex-col items-start justify-between gap-4 md:mt-0 md:flex-row md:items-center">
       <Introduction />
-      <Resume />
+      {/* <Resume /> */}
       </div>
       <Breakline className="my-8" />
       <SkillList />
