@@ -45,7 +45,7 @@ const ContactCard = ({
             data-umami-event={`click_contact_${name}`}
           >
             <p className="text-sm font-medium">
-              {locale == "en" ? "Go to" : "Pergi ke"}{" "}
+              {locale == "en" ? "Go to" : ""}{" "}
               <span className="capitalize">{name}</span>
             </p>
             <ArrowIcon size={17} />
