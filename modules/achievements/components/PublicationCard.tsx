@@ -27,7 +27,6 @@ export default function PublicationCard({ pub }: { pub: Publication }) {
       <h3 className="text-lg font-semibold leading-snug">{pub.title}</h3>
       <p className="mt-1 text-md mb-2 text-neutral-400">{pub.authors.join(", ")}</p>
       <p className="mt-1 text-md">{pub.venue} · {pub.date}</p>
-      <p className="mt-1 text-md text-neutral-400">Note: currently accepted for publication. hasn't been presented yet.</p>
       {pub.abstract && (
         <p className="mt-3 text-sm text-neutral-300 line-clamp-3">{pub.abstract}</p>
       )}
