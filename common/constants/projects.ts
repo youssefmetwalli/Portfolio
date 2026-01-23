@@ -7,7 +7,7 @@ export const PROJECTS: ProjectItem[] = [
     slug: "kereza-student-discounts",
     description: "An IOS Application that helps students find exclusive offers and deals from various businesses.",
     image: "/images/projects/kereza.png",
-    link_github: "https://github.com/youssefmetwalli/Alexa-Checkout-API",
+    link_appstore: "https://apps.apple.com/app/id6756993123",
     stacks: ["Flutter", "Dart","Firebase","Xcode","SMTP"],
     content: null,
     is_show: true,
