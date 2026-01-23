@@ -32,7 +32,7 @@ export default function PublicationCard({ pub }: { pub: Publication }) {
       )}
 
       <div className="mt-4 flex flex-wrap gap-2">
-        {pub.url && (
+        {/* {pub.url && (
           <a
             className="inline-flex items-center gap-1 rounded-xl border border-neutral-700 px-3 py-1.5 text-sm hover:bg-neutral-800"
             href={pub.url}
@@ -42,7 +42,7 @@ export default function PublicationCard({ pub }: { pub: Publication }) {
           >
             <FileText className="h-4 w-4" /> PDF
           </a>
-        )}
+        )} */}
         {pub.doi && (
           <a
             className="inline-flex items-center gap-1 rounded-xl border border-neutral-700 px-3 py-1.5 text-sm hover:bg-neutral-800"
