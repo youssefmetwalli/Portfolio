@@ -14,6 +14,7 @@ const ProjectDetail = ({
   stacks,
   link_demo,
   link_github,
+  link_appstore,
   content,
 }: ProjectItem) => {
   const t = useTranslations("ProjectsPage");
@@ -29,20 +30,32 @@ const ProjectDetail = ({
             {stacks.map((stack: string, index: number) => {
               const stackData = STACKS[stack];
 
+              // Prevent runtime crash if a stack string doesn't exist in STACKS
+              if (!stackData) {
+                return (
+                  <Tooltip title={stack} key={index}>
+                    <div className="text-neutral-500 dark:text-neutral-400">
+                      {/* fallback: show nothing or a dot */}
+                      •
+                    </div>
+                  </Tooltip>
+                );
+              }
+
               return (
                 <Tooltip title={stack} key={index}>
-                  <div className={`${stackData.color}`}>
-                    {STACKS[stack].icon}
-                  </div>
+                  <div className={`${stackData.color}`}>{stackData.icon}</div>
                 </Tooltip>
               );
             })}
           </div>
         </div>
+
         <ProjectLink
           title={title}
           link_demo={link_demo || ""}
           link_github={link_github || ""}
+          link_appstore={link_appstore || ""}
         />
       </div>
 
