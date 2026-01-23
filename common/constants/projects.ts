@@ -3,6 +3,18 @@ import { ProjectItem } from "@/common/types/projects";
 export const PROJECTS: ProjectItem[] = [
   {
     id: 1,
+    title: "Kereza: Student Discounts",
+    slug: "kereza-student-discounts",
+    description: "An IOS Application that helps students find exclusive offers and deals from various businesses.",
+    image: "/images/projects/kereza.png",
+    link_github: "https://github.com/youssefmetwalli/Alexa-Checkout-API",
+    stacks: ["Flutter", "Dart","Firebase","Xcode","SMTP"],
+    content: null,
+    is_show: true,
+    is_featured: true
+  },
+  {
+    id: 2,
     title: "Automata Intelligent Tutoring System",
     slug: "automata-intelligent-tutoring-system",
     description: "An Intelligent Tutoring System solely dedicated for Automata Theory",
@@ -15,7 +27,7 @@ export const PROJECTS: ProjectItem[] = [
     is_featured: true
   },
   {
-    id: 2,
+    id: 3,
     title: "Alexa Skill Checkout API",
     slug: "alexa-skill-checkout-api",
     description: "An API that allows users to checkout of a booking/room through a voice interaction with Amazon Alexa.",

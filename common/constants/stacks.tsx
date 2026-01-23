@@ -20,6 +20,12 @@ import {
   SiAmazonwebservices,
   SiFlask,
   SiGooglegemini,
+  SiFlutter,
+  SiDart,
+  SiDigitalocean,
+  SiMysql,
+  SiXcode,
+  SiMaildotru,
 } from "react-icons/si";
 
 export type SkillProps = {
@@ -100,6 +106,12 @@ export const STACKS: SkillProps = {
     color: "text-blue-500",
     isActive: true,
   },
+  MySQL: {
+    icon: <SiMysql size={iconSize} />,
+    background: "bg-orange-500",
+    color: "text-orange-500",
+    isActive: true,
+  },
   Firebase: {
     icon: <SiFirebase size={iconSize} />,
     background: "bg-amber-500",
@@ -118,12 +130,18 @@ export const STACKS: SkillProps = {
     color: "text-blue-500",
     isActive: true,
   },
+  DigitalOcean: {
+    icon: <SiDigitalocean size={iconSize} />,
+    background: "bg-blue-600",
+    color: "text-blue-600",
+    isActive: true,
+  },
   AI: {
     icon: <BsRobot size={iconSize} />,
     background: "bg-fuchsia-700",
     color: "text-fuchsia-700",
     isActive: true,
-  },  
+  },
   Github: {
     icon: <SiGithub size={iconSize} />,
     background: "bg-slate-800",
@@ -136,10 +154,22 @@ export const STACKS: SkillProps = {
     color: "text-blue-600",
     isActive: true,
   },
+  Flutter: {
+    icon: <SiFlutter size={iconSize} />,
+    background: "bg-sky-500",
+    color: "text-sky-500",
+    isActive: true,
+  },
+  Dart: {
+    icon: <SiDart size={iconSize} />,
+    background: "bg-blue-500",
+    color: "text-blue-500",
+    isActive: true,
+  },
   AWS: {
     icon: <SiAmazonwebservices size={iconSize} />,
-    background: "bg-amber-500",  
-    color: "text-amber-500",       
+    background: "bg-amber-500",
+    color: "text-amber-500",
     isActive: true,
   },
   Alexa: {
@@ -152,6 +182,18 @@ export const STACKS: SkillProps = {
     icon: <SiFlask size={iconSize} />,
     background: "bg-navy-900",
     color: "text-navy-700",
+    isActive: true,
+  },
+  Xcode: {
+    icon: <SiXcode size={iconSize} />,
+    background: "bg-blue-400",
+    color: "text-blue-400",
+    isActive: true,
+  },
+  SMTP: {
+    icon: <SiMaildotru size={iconSize} />,
+    background: "bg-rose-500",
+    color: "text-rose-500",
     isActive: true,
   },
   "Google Gemini": {
