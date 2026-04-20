@@ -1,6 +1,6 @@
-import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoMicrosoft, BiLogoPostgresql } from "react-icons/bi";
 import { BsRobot } from "react-icons/bs";
-import { TbBrandFramerMotion } from "react-icons/tb";
+import { TbBrandAzure, TbBrandFramerMotion } from "react-icons/tb";
 import {
   SiCss3,
   SiGithub,
@@ -13,7 +13,6 @@ import {
   SiTypescript,
   SiPhp,
   SiFirebase,
-  SiSupabase,
   SiDocker,
   SiPython,
   SiAmazonalexa,
@@ -118,10 +117,16 @@ export const STACKS: SkillProps = {
     color: "text-amber-500",
     isActive: true,
   },
-  Supabase: {
-    icon: <SiSupabase size={iconSize} />,
-    background: "bg-emerald-500",
-    color: "text-emerald-500",
+  Microsoft: {
+    icon: <BiLogoMicrosoft size={iconSize} />,
+    background: "bg-blue-600",
+    color: "text-blue-600",
+    isActive: true,
+  },
+  "Microsoft Azure": {
+    icon: <TbBrandAzure size={iconSize} />,
+    background: "bg-sky-500",
+    color: "text-sky-500",
     isActive: true,
   },
   Docker: {
