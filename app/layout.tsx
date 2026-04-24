@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: METADATA.profile,
     siteName: METADATA.openGraph.siteName,
-    locale: METADATA.openGraph.locale, // e.g. "ja-JP"
+    locale: METADATA.openGraph.locale, 
     type: "website",
   },
 };
