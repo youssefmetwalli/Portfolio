@@ -46,7 +46,7 @@ export const CAREERS: CareerProps[] = [
     type: "Mentorship",
     start_date: "2025-02",
     end_date: "2025-02",
-    industry: "Fintech",
+    industry: "Semiconductors",
     link: "https://www.nvidia.com/",
     responsibilities: [
       "Selected as just one of 3 students from Japan to attend this prestigious bi-annual mentorship program.",
